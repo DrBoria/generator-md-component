@@ -7,13 +7,13 @@ First, install [Yeoman](http://yeoman.io) and generator-md-component using [npm]
 
 ```bash
 npm install -g yo
-npm install -g generator-md-component
+npm install -g generator-md-components
 ```
 
 Then generate your new project:
 
 ```bash
-yo md-component
+yo md-components
 ```
 
 ## Getting To Know Yeoman
