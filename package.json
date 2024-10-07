@@ -16,6 +16,7 @@
     "components",
     "yeoman-generator"
   ],
+  "type": "commonjs",
   "devDependencies": {
     "coveralls": "^3.0.7",
     "eslint": "^6.6.0",
@@ -35,6 +36,7 @@
   "dependencies": {
     "chalk": "^2.1.0",
     "md-components-library": "^0.3.0",
+    "md-turborepo": "^0.1.0",
     "ncp": "^2.0.0",
     "yeoman-generator": "^7.3.2",
     "yosay": "^2.0.2"
