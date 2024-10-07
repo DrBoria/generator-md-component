@@ -1,6 +1,6 @@
 {
   "name": "generator-md-components",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Generate new component in working MD repository",
   "homepage": "miki-du.com",
   "author": {
