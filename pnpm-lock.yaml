@@ -54,6 +54,9 @@ importers:
       prettier:
         specifier: ^1.19.1
         version: 1.19.1
+      run-node:
+        specifier: ^2.0.0
+        version: 2.0.0
       yeoman-assert:
         specifier: ^3.1.1
         version: 3.1.1
@@ -6423,6 +6426,11 @@ packages:
     engines: {node: '>=4'}
     hasBin: true
 
+  run-node@2.0.0:
+    resolution: {integrity: sha512-M024oSKOfXRbBZ4dzWeS4mZfLlkVrLbR+02lSno344whh60hFN7qjWnf3QXm/JePD9CR7W4gRe9tt4H/2PGkcw==}
+    engines: {node: '>=10'}
+    hasBin: true
+
   run-parallel@1.2.0:
     resolution: {integrity: sha512-5l4VyZR86LZ/lDxZTR6jqL8AFE2S0IFLMP26AbjsLVADxHdhB/c0GUsH+y39UfCi3dzz8OlQuPmnaJOMoDHQBA==}
 
@@ -9683,11 +9691,7 @@ snapshots:
       jest-runner: 26.6.3
       jest-runtime: 26.6.3
     transitivePeerDependencies:
-      - bufferutil
-      - canvas
       - supports-color
-      - ts-node
-      - utf-8-validate
 
   '@jest/test-sequencer@29.7.0':
     dependencies:
@@ -10180,7 +10184,7 @@ snapshots:
   '@types/vinyl@2.0.12':
     dependencies:
       '@types/expect': 1.20.4
-      '@types/node': 20.16.10
+      '@types/node': 22.7.4
 
   '@types/webpack-sources@3.2.3':
     dependencies:
@@ -13916,11 +13920,7 @@ snapshots:
       stack-utils: 2.0.6
       throat: 5.0.0
     transitivePeerDependencies:
-      - bufferutil
-      - canvas
       - supports-color
-      - ts-node
-      - utf-8-validate
 
   jest-circus@29.7.0(babel-plugin-macros@3.1.0):
     dependencies:
@@ -14179,11 +14179,7 @@ snapshots:
       pretty-format: 26.6.2
       throat: 5.0.0
     transitivePeerDependencies:
-      - bufferutil
-      - canvas
       - supports-color
-      - ts-node
-      - utf-8-validate
 
   jest-leak-detector@26.6.2:
     dependencies:
@@ -16777,6 +16773,8 @@ snapshots:
   run-async@3.0.0: {}
 
   run-node@1.0.0: {}
+
+  run-node@2.0.0: {}
 
   run-parallel@1.2.0:
     dependencies:
